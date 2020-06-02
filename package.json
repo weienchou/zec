@@ -1,0 +1,20 @@
+{
+  "name": "zec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build src/modules/zec.js"
+  },
+  "dependencies": {
+    "cash-dom": "7.0.1",
+    "controller": "^1.0.0",
+    "helper": "0.0.13"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
